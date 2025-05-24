@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: ;
+  color: ;
+  background-color: ;
+}
+
+h1,
+h2,
+h3 {
+}
+
+ul {
+}
+img {
+  display: block;
+}
