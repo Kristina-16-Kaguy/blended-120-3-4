@@ -53,7 +53,7 @@ body {
 }
 .container {
 }
-.header-container {
+.header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -115,7 +115,7 @@ body {
 .header-list-butn-item {
 }
 
-.heder-list-btn {
+.header-list-btn {
   font-weight: 600;
   font-size: 16px;
   text-align: center;
@@ -143,4 +143,10 @@ body {
   background-color: #02897a;
   color: #fff;
   border: none;
+}
+
+/* HERO */
+.hero-container {
+  display: flex;
+  margin-bottom: 100px;
 }
