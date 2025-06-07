@@ -4,17 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: ;
-  color: ;
-  background-color: ;
-}
-
-ul {
-}
-img {
-  display: block;
-}
 h1,
 h2,
 h3,
@@ -59,84 +48,28 @@ body {
   margin: 0 auto;
 }
 
-/* #region header */
-
+/* Header */
+.header {
+}
+.container {
+}
 .header-container {
-  display: flex;
-  align-items: center;
 }
-
 .navigation {
-  display: flex;
-  gap: 237px;
 }
-
-.navigation-logo {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 0.93333;
-  color: #173a56;
-  display: flex;
-  gap: 16px;
-  align-items: center;
+.list-navigation {
 }
-
-.nav-list {
-  display: flex;
-  gap: 30px;
+.list-navigation-item {
 }
-
-.nav-list-item {
+.list-navigation-link {
 }
-
-.nav-item-link {
-  line-height: 1.75;
-  color: #22343d;
-  padding: 26px 0;
-  display: block;
+.header-list-buttons {
 }
-
-.current {
-  font-weight: 600;
+.header-list-butn-item {
 }
-
-.hedding-list {
-  display: flex;
-  margin-left: auto;
-  gap: 21px;
+.heder-list-btn {
 }
-
-.hedding-list-item {
-}
-
-.hedding-list-btn {
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-  color: #173a56;
-  border: 1px solid #bcd0e5;
-  border-radius: 4px;
-  width: 105px;
-  height: 42px;
-  background-color: #fff;
-}
-.hedding-list-btn:hover,
-.hedding-list-btn:focus {
-  background: #02897a;
-  color: #fff;
+.sign-in {
 }
 .sign-up {
-  border-radius: 4px;
-  width: 113px;
-
-  background: #02897a;
-  color: #fff;
-  border: none;
 }
-.sign-up:hover,
-.sign-up:focus {
-  background-color: #fff;
-  border: 1px solid #bcd0e5;
-  color: #173a56;
-}
-/* #endregion header */
