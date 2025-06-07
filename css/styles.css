@@ -54,22 +54,93 @@ body {
 .container {
 }
 .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
 }
+
 .navigation {
+  display: flex;
+  gap: 237px;
 }
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.logo-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93333;
+  color: #173a56;
+}
+
 .list-navigation {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 .list-navigation-item {
+  display: inline-block;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
+
 .list-navigation-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #22343d;
 }
+
+.list-navigation-link.current {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
+
 .header-list-buttons {
+  display: flex;
+  align-items: center;
+  gap: 21px;
 }
+
 .header-list-butn-item {
 }
+
 .heder-list-btn {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #fff;
 }
+
 .sign-in {
+  width: 105px;
+  height: 42px;
+  color: #173a56;
+  border: 1px solid #bcd0e5;
 }
+
+.sign-in:hover,
+.sign-in:focus {
+  color: #fff;
+  background-color: #02897a;
+  border: none;
+}
+
 .sign-up {
+  width: 113px;
+  height: 42px;
+  background-color: #02897a;
+  color: #fff;
+  border: none;
 }
